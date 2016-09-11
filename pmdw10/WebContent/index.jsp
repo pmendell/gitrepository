@@ -11,7 +11,7 @@
 
 <jsp:useBean id="myBean" class="pmdw10.TestBean"> </jsp:useBean>
 
-<p>Invocation Count: 
+<p>PMWD10 Invocation Count: 
    <jsp:getProperty name="myBean" property="message"/>
 </p>
 </body>
