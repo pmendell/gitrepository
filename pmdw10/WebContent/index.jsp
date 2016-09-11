@@ -11,7 +11,7 @@
 
 <jsp:useBean id="myBean" class="pmdw10.TestBean"> </jsp:useBean>
 
-<p>Counter: 
+<p>This is a static counter: 
    <jsp:getProperty name="myBean" property="message"/>
 </p>
 </body>
