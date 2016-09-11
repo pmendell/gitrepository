@@ -5,14 +5,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>This is the index from pmwd10</title>
 </head>
 <body>
-<h2>THis is #10</h2>
+<h2>This is #10</h2>
 
 <jsp:useBean id="myBean" class="pmdw10.TestBean"> </jsp:useBean>
 
-<p>PMWD10 Invocation Count: 
+<p>Bean's Invocation Count: 
    <jsp:getProperty name="myBean" property="message"/>
 </p>
 </body>
