@@ -15,5 +15,11 @@
 <p>Bean's Invocation Count: 
    <jsp:getProperty name="myBean" property="message"/>
 </p>
+
+<jsp:useBean id="myEnv" class="pmdw10.RefData"> </jsp:useBean>
+
+<p>hostname: 
+   <jsp:getProperty name="myEnv" property="info"/>
+</p>
 </body>
 </html>
