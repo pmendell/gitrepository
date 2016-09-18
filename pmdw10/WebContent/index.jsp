@@ -8,18 +8,16 @@
 <title>This is the index from pmwd10</title>
 </head>
 <body>
-<h2>This is #10</h2>
-
+<jsp:useBean id="myEnv" class="pmdw10.RefData"> </jsp:useBean>
 <jsp:useBean id="myBean" class="pmdw10.TestBean"> </jsp:useBean>
-
+<h2>This is #10</h2>
+<p>hostname: 
+   <jsp:getProperty name="myEnv" property="info"/>
+</p>
 <p>Bean's Invocation Count: 
    <jsp:getProperty name="myBean" property="message"/>
 </p>
 
-<jsp:useBean id="myEnv" class="pmdw10.RefData"> </jsp:useBean>
 
-<p>hostname: 
-   <jsp:getProperty name="myEnv" property="info"/>
-</p>
 </body>
 </html>
