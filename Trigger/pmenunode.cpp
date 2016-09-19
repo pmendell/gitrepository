@@ -29,4 +29,3 @@ const unsigned PMenuNode::getArg() const
 {
   return arg;
 }
-

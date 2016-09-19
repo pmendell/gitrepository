@@ -1,5 +1,4 @@
 
-
 //Use these pins for the shield!
 #define sclk 13
 #define mosi 11

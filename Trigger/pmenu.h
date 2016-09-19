@@ -22,4 +22,3 @@ class PMenu
   void render();
   void renderEntry(int);
 };
-
